@@ -2,7 +2,7 @@
 from pdftoimage import convert_from_path
 
 # Ruta del archivo PDF
-pdf_path = "C:\\Users\\Dell Latitude\\Downloads\\faxihorario.pdf"
+pdf_path = "faxihorario.pdf"
 
 # Convertir PDF a imágenes (una imagen por cada página del PDF)
 imagenes = convert_from_path(pdf_path)
